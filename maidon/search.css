@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.maids {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.maid-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.maid-card {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    max-width: 250px;
+}
+
+.maid-card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.maid-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.Number {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
